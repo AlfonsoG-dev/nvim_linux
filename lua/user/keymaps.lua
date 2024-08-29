@@ -84,7 +84,3 @@ nnoremap("<space>gc", "<Cmd>:Git commit --amend<CR>")
 
 -- File explorer
 nnoremap("<C-a>", "<Cmd>:NERDTreeToggle<CR>")  -- NvimTree
-
--- coc-powershell terminal
-nnoremap("<A-T>", "<Cmd>:CocCommand powershell.hideTerminal<CR>")
-nnoremap("<A-E>", "<Cmd>:CocCommand powershell.showTerminal<CR>")
