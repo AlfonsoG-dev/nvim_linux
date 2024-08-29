@@ -1,0 +1,113 @@
+{
+    //java
+    "java.enabled": true,
+    "java.format.enabled": true,
+    "java.completion.enabled": true,
+    "java.codeGeneration.useBlocks": true,
+    "java.codeGeneration.generateComments": true,
+    "java.signatureHelp.enabled": true,
+    "java.project.importHint": true,
+    "java.referencesCodeLens.enabled": true,
+    "java.inlayHints.parameterNames.enabled": "none",
+    "java.implementationsCodeLens.enabled": true,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/usr/lib/jvm/java-17-openjdk-amd64/"
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    //python
+    "pyright.enable": true,
+    "pyright.inlayHints.variableTypes": false,
+    "pyright.organizeimports.provider": "pyright",
+    "pyright.inlayHints.functionReturnTypes": false,
+    "pyright.completion.importSupport": true,
+    "python.pythonPath": "/usr/bin/python3",
+    //javascript
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.implementationsCodeLens.enabled": true,
+    //typescript
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+    //codelens
+    "codeLens.enable": true,
+    "codeLens.position": "top",
+    "codeLens.separator": ">",
+    "codeLens.subseparator": " | ",
+    //css
+    "css.format.enable": true,
+    "css.hover.references": true,
+    "css.hover.documentation": true,
+    "css.format.braceStyle": "collapse",
+    "css.completion.triggerPropertyValueCompletion": true,
+    "css.completion.completePropertyWithSemicolon": true,
+    //sql
+    "sql.database": "mysql",
+    "sql.lintOnOpen": true,
+    "sql.lintOnSave": true,
+    //json
+    "json.enable": true,
+    "json.format.enable": true,
+    "json.schemaDownload.enable": true,
+    "json.validate.enable": true,
+    //html
+    "html.suggest.html5": true,
+    "html.validate.styles": true,
+    "html.autoCreateQuotes": true,
+    "html.autoClosingTags": true,
+    "html.hover.references": true,
+    "html.hover.documentation": true,
+    //vim
+    "vimlsp.trace.server": "messages",
+    "vimlsp.debug": false,
+    "vimlsp.diagnostic.enable": true,
+    "vimlsp.indexes.count": 5,
+    //git
+    "git.enableGutters": true,
+    "git.addGBlameToVirtualText": false,
+    "git.addedSign.text": "",
+    "git.removedSign.text": "󰷭",
+    "git.changedSign.text": "󰚰",
+    //coc
+    "hover.target": "float",
+    "coc.preferences.formatOnSave": false,
+    "coc.preferences.formatOnType": false,
+    "coc.preferences.bracketEnterImprove": true,
+    "coc.preferences.enableLinkedEditing": true,
+    "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+    //diagnostic sign icons
+    "diagnostic.errorSign": " ",
+    "diagnostic.infoSign":" ",
+    "diagnostic.hintSign": " ",
+    "diagnostic.warningSign": " ",
+    "suggest.completionItemKindLabels": {
+        "class": "󰠱",
+        "color": "",
+        "constructor": "",
+        "enum": "練",
+        "enumMember": "",
+        "field": "󰜢",
+        "file": "󰈙",
+        "folder": "󰉋",
+        "function": "󰊕",
+        "interface": "",
+        "keyword": "󰌋",
+        "method": "󰆧",
+        "module": "",
+        "property": "",
+        "reference": "󰈇",
+        "snippet": "",
+        "struct": "󰙅",
+        "text": "",
+        "unit": "󰑭",
+        "value": "󰎠",
+        "variable": "󰀫"
+    },
+    // clangd
+    "clangd.path": "/usr/lib/llvm-18/bin/clangd"
+}
