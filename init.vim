@@ -1,7 +1,6 @@
 call plug#begin("~/.config/nvim/plugged")
 
 Plug 'maxmellon/vim-jsx-pretty'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 Plug 'tribela/vim-transparent'
 Plug 'rebelot/kanagawa.nvim'
@@ -157,7 +156,6 @@ nnoremap <silent><nowait> <space>gs  :<C-u>CocList --no-quit --normal gchanges<C
 lua << EOF
 require("user.options")
 require("user.keymaps")
-require("user.treesitter")
 require("user.telescope")
 require("user.statusline")
 require("user.cursor")
