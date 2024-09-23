@@ -12,6 +12,9 @@ local nmap = Utils.nmap
 -- markdown 
 nmap('<leader>rm', '<Plug>MarkdownPreviewToggle')
 
+-- transparentToggle
+keymap("n", "<leader>tt", ":transparentToggle <CR>", opts)
+
 --reize window
 keymap("n", "<C-A-Down>", ":resize +2 <CR>", opts)
 keymap("n", "<C-A-Up>", ":resize -2 <CR>", opts)
