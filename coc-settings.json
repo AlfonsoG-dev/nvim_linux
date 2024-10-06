@@ -109,5 +109,5 @@
         "variable": "󰀫"
     },
     // clangd
-    "clangd.path": "/usr/lib/llvm-18/bin/clangd"
+    "clangd.path": "/usr/bin/clangd-18"
 }
