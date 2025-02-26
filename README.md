@@ -1,6 +1,7 @@
-# My neovim config for windows 
+# My neovim config for linux 
 - this is my first neovim setup base on videos and other repositories.
-- I'm currently using this setup to work on coding wile learning about vim motions. 
+- I'm currently using this setup to work on coding wile learning about vim motions.
+- Currently using this only for JAVA and C delepment.
 
 ---
 
