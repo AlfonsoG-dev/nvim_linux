@@ -11,7 +11,7 @@
     "java.inlayHints.parameterNames.enabled": "none",
     "java.implementationsCodeLens.enabled": true,
     "java.trace.server": "verbose",
-    "java.server.launchMode": "LightWeight",
+    "java.server.launchMode": "Standard",
     "java.jdt.ls.java.home": "~/Custom/coding/dependencies/jdk/jdk-23.0.2",
     "java.configuration.runtimes": [
         {
@@ -83,6 +83,7 @@
     "coc.preferences.bracketEnterImprove": true,
     "coc.preferences.enableLinkedEditing": true,
     "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+    "semanticTokens.enable": true,
     //diagnostic sign icons
     "diagnostic.errorSign": "",
     "diagnostic.infoSign":"",
