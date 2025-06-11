@@ -11,7 +11,7 @@
     "java.inlayHints.parameterNames.enabled": "none",
     "java.implementationsCodeLens.enabled": true,
     "java.trace.server": "verbose",
-    "java.server.launchMode": "Standard",
+    "java.server.launchMode": "LightWeight",
     "java.jdt.ls.java.home": "~/Custom/coding/dependencies/jdk/jdk-23.0.2",
     "java.configuration.runtimes": [
         {
