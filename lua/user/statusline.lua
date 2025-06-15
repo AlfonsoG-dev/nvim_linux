@@ -14,8 +14,8 @@ _G.status_diagnostic = function ()
 end
 
 vim.opt.statusline = table.concat({
-    '',
-    '%f',
+    ' ',
+    '%t',
     ' [%{WebDevIconsGetFileTypeSymbol()}]',
     '%m',
     ' %= ',
