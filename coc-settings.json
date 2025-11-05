@@ -12,11 +12,11 @@
     "java.implementationsCodeLens.enabled": true,
     "java.trace.server": "verbose",
     "java.server.launchMode": "Standard",
-    "java.jdt.ls.java.home": "/usr/lib/jvm/jdk-23.0.2/bin/java",
+    "java.jdt.ls.java.home": "/usr/lib/jvm/jdk-23.0.2",
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-23",
-            "path": "/usr/lib/jvm/jdk-23.0.2/bin/java",
+            "path": "/usr/lib/jvm/jdk-23.0.2",
             "default": true
         }
     ],
