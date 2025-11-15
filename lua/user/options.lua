@@ -26,6 +26,7 @@ vim.opt.splitright         = true
 vim.opt.scrolloff          = 12                           -- Minimum offset in lines to screen borders
 vim.opt.sidescrolloff      = 8
 vim.opt.shortmess:append("SI")
+vim.opt.iskeyword:remove("_")                            -- to navigate between words when using hello_world
 
 -- Vim specific
 vim.opt.hidden             = true                         -- Do not save when switching buffers
@@ -34,4 +35,17 @@ vim.opt.completeopt        = "menuone,noinsert,noselect"
 vim.opt.updatetime         = 500                          -- Delay until write to Swap and HoldCommand event
 vim.opt.timeoutlen         = 500
 vim.opt.list               = true
-vim.opt.listchars:append('tab:> ')
+vim.opt.listchars = {
+  tab = '→ ',
+  trail = '·',
+  extends = '>',
+  precedes = '<',
+  nbsp = '+'
+}
+vim.opt.fillchars = {
+  fold = ' ',
+  vert = '|',
+  eob = ' ',
+  msgsep = '-'
+}
+
