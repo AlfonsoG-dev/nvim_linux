@@ -60,7 +60,7 @@ set linebreak
 set showbreak=↪
 set wildmode=full
 set ff=unix
-set fileformats=unix,dos
+set fileformats=unix
 set confirm
 set history=100
 syntax on
@@ -113,7 +113,6 @@ set wildignorecase  " ignore file and dir name cases in cmd-completion
 
 "
 colorscheme kanagawa-dragon
-set nocompatible
 
 "react jsx highlight
 let g:vim_jsx_pretty_colorful_config = 1
