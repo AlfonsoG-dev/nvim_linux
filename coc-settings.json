@@ -5,6 +5,11 @@
     "java.completion.enabled": true,
     "java.codeGeneration.useBlocks": true,
     "java.codeGeneration.generateComments": true,
+     "java.jdt.ls.statusIcons": {
+        "ready": "󰩐",
+        "warning": "",
+        "Error": ""
+    },
     "java.signatureHelp.enabled": true,
     "java.project.importHint": true,
     "java.referencesCodeLens.enabled": true,
@@ -77,6 +82,7 @@
     "git.addedSign.text": "",
     "git.removedSign.text": "",
     "git.changedSign.text": "󰷭",
+
     //coc
     "hover.target": "float",
     "coc.preferences.formatOnSave": false,
