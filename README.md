@@ -7,39 +7,37 @@
 
 # Dependencies 
 
->- [vim-plug](https://github.com/junegunn/vim-plug)
->- [git](https://git-scm.com/download/linux)
->- [nodejs](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
->- [python](https://discuss.python.org/t/install-python-3-11-9-on-ubuntu/51093)
->- [java SE-17](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04)
->- [go-language](https://go.dev/wiki/Ubuntu)
->- [mysql](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiX98jwqJuIAxUeRzABHe8eKJoQFnoECBkQAQ&url=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorials%2Fhow-to-install-mysql-on-ubuntu-20-04&usg=AOvVaw2Ssfe7KMHb7SIQRGdq56XG&opi=89978449)
->- [nerd-fonts](https://www.nerdfonts.com)
+- [vim-plug](https://github.com/junegunn/vim-plug)
+- [git](https://git-scm.com/download/linux)
+- [nodejs](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+- [python](https://discuss.python.org/t/install-python-3-11-9-on-ubuntu/51093)
+- [java SE-17](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04)
+- [nerd-fonts](https://www.nerdfonts.com)
 
 ---
 
 ## Other dependencies
->- neovim: `sudo apt-get install neovim`
->- ripgrep: `sudo apt-get install ripgrep`
->- clang: `sudo apt-get clang-18`
->- gcc: `sudo apt-get install gcc`
+- neovim: `sudo apt-get install neovim`
+- ripgrep: `sudo apt-get install ripgrep`
+- clang: `sudo apt-get clang-18`
+- gcc: `sudo apt-get install gcc`
 
 ---
 
 # Installation 
->- clone the repository inside *"~/.config/"* folder.
->- a new folder is created called *"nvim"*.
->- enter the folder using: `cd .\nvim`
->- inside of "nvim" folder create another folder called: `mkdir plugged`
->- inside of "nvim" folder open with nvim the file `init.vim` or `nvim -p init.vim`
->- when inside of neovim use the command *": PlugInstall"* in order to install the plugins.
->- reload the editor and explore the config
+- clone the repository inside *"~/.config/"* folder.
+- a new folder is created called *"nvim"*.
+- enter the folder using: `cd .\nvim`
+- inside of "nvim" folder create another folder called: `mkdir plugged`
+- inside of "nvim" folder open with nvim the file `init.vim` or `nvim -p init.vim`
+- when inside of neovim use the command *": PlugInstall"* in order to install the plugins.
+- reload the editor and explore the config
 
 ---
 
 # Configuration of coc completion for neovim
->- install coc packages for a variety of languages 
->- in the command line use the following list of languages to install for code completion:
+- install coc packages for a variety of languages 
+- in the command line use the following list of languages to install for code completion:
 ```terminal
 CocInstall coc-java coc-pyright coc-json coc-tsserver coc-html coc-eslint coc-sql coc-git coc-css coc-vimlsp coc-lua coc-sh coc-go coc-restclient coc-clangd
 ```
@@ -60,5 +58,6 @@ CocInstall coc-java coc-pyright coc-json coc-tsserver coc-html coc-eslint coc-sq
 ---
 
 # Discalimer
->- this is my own setup and may have some errors, which is totally fine.
->- this neovim setup is for educational purposes.
+- This is my own setup and may have some errors, which is totally fine.
+- It is not intended to make it like an IDE. I just want to try some stuff before migrating to **neovim**.
+
